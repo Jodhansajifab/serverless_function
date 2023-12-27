@@ -1,3 +1,4 @@
+// Changes updated
 module.exports.handler = async (event) => {
   const { firstName, secondName } = JSON.parse(event.body);
 
